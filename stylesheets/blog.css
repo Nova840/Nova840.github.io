@@ -1,0 +1,16 @@
+.postBackground{
+	background-color:#888888;
+	margin-left:5%;
+	padding:1em;
+	width:85%;
+	margin-top: 1em;
+}
+
+.postTitle{
+	line-height:0;
+}
+
+.postDate{
+	line-height:0;
+	padding-bottom: 1em;
+}
