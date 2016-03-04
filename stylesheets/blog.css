@@ -1,6 +1,7 @@
 .postBackground{
 	background-color:#888888;
-	margin-left:5%;
+	display: block;
+	margin:auto;
 	padding:1em;
 	width:85%;
 	margin-top: 1em;
@@ -13,4 +14,10 @@
 .postDate{
 	line-height:0;
 	padding-bottom: 1em;
+}
+
+pre{
+	display:inline-block;
+	padding:1em 1em 0em 1em;
+	background-color:#B0B0B0;
 }
