@@ -31,7 +31,7 @@ header{
 	height:2.5em;/*Same as header*/
 }
 
-.headerSection{
+.headerNav{
 	background-color: #303030;
 	height:100%;
 	right:100%;
@@ -41,8 +41,12 @@ header{
 	float:right;
 }
 
-a .headerSection:hover{
+a .headerNav:hover{
 	background-color: #404040;
+}
+
+a .headerNav:active{
+	background-color: #454545;
 }
 
 #home{
@@ -57,23 +61,24 @@ a .headerSection:hover{
 	color:#CCCCCC;
 }
 
-footer{
-	background-color:#000000;
-	position: fixed;
-	height:2em;
-	padding:.5em;
-	right:0;
-	bottom:0;
-	border-radius:.5em;
-}
-
-.footerImg{
-	height:2em;
-	width:2em;
-	margin-left:.25em;
-	margin-right:.25em;
-}
-
 #bodyText{
 	margin-bottom: 4em;
+}
+
+#contactHolder{
+	text-align: center
+}
+
+.contactImg{
+	width:4em;
+	height:4em;
+	margin:1em;
+}
+
+#about{
+	display:block;
+	margin:auto;
+	background-color:#B0B0B0;
+	width:50em;
+	padding:1em;
 }
