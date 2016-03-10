@@ -26,10 +26,18 @@
 				The <i>map</i> method in Ruby is an enumerable method in ruby that lets you modify every element in an array. It's just like the <i>each</i> method except it will change the array to whatever the element is assigned to. If there is no assignment, the element will be assigned to <i>nil</i>.
 			</p>
 			<pre>
-this_array.map {|i| i = new_value }aaaaaaaaaaaaaaaaaaaaa
+this_array.map {|i| i = new_value }
 			</pre>
 			<p>
 				The above method would return an array with <i>this_array</i>'s length and every value in the array would be equal to <i>new_value</i>.
+			</p>
+			<p>
+				There is also a destructive version of the <i>map</i> method.
+			<pre>
+this_array.map! {|i| i = new_value }
+			</pre>
+			<p>
+				Using the destructive version will modify the original array, while the non-destructive method will only return the modified array.
 			</p>
 		</article>
 
