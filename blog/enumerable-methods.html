@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Blog-Template</title>
+		<link type="text/css" rel="stylesheet" href="../stylesheets/default.css">
+		<link type="text/css" rel="stylesheet" href="../stylesheets/blog.css">
+	</head>
+	<body>
+		<div id="headerSpace"></div>
+		<header>
+			<!--All objects in here will be in reverse order except home-->
+			<a href="../index.html"><section id="home" class="headerNav"><p class="headerText">Home</p></section></a>
+
+
+			<a href="index.html"><section class="headerNav"><p class="headerText">Blog</p></section></a>		
+
+			<a href="../about.html"><section class="headerNav"><p class="headerText">About</p></section></a>
+
+			<section class="headerNav"><p class="headerText">Projects</p></section>
+		</header>
+
+		<article class="postBackground">
+			<h1 class="postTitle">Using the map method in Ruby.</h1>
+		    <h4 class="postDate">3/10/16</h4>
+			<p>
+				The <i>map</i> method in Ruby is an enumerable method in ruby that lets you modify every element in an array. It's just like the <i>each</i> method except it will change the array to whatever the element is assigned to. If there is no assignment, the element will be assigned to <i>nil</i>.
+			</p>
+			<pre>
+this_array.map {|i| i = new_value }aaaaaaaaaaaaaaaaaaaaa
+			</pre>
+			<p>
+				The above method would return an array with <i>this_array</i>'s length and every value in the array would be equal to <i>new_value</i>.
+			</p>
+		</article>
+
+	</body>
+</html>
