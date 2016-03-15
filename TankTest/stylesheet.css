@@ -1,0 +1,28 @@
+#canvas {
+	background-color:grey;
+	margin:auto;
+	display:block;
+}
+
+.announcement{
+	background-color:lightgrey;
+	width:30em;
+	display:block;
+	margin:auto;
+	margin-top:2em;
+	padding:1em;
+}
+
+.announcement h2{
+	line-height:0;
+	font-size:2em;
+}
+
+.announcement h5{
+	line-height:0;
+	font-size:1em;
+}
+
+.announcement p{
+	font-size:1.1em;
+}
