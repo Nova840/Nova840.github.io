@@ -1,0 +1,33 @@
+.gameSpace{
+	height:650px;
+}
+
+.announcement{
+	background-color:#808080;
+	width:50em;
+	display:block;
+	margin:auto;
+	margin-top:2em;
+	margin-bottom:1em;
+	padding:1em;
+}
+
+.announcement li{
+	line-height:1.5em;
+}
+
+.announcement .announcementTitle{
+	margin-bottom:-0.5em;
+	font-size:2em;
+	font-weight:bold;
+}
+
+.announcement .announcementDate{
+	margin-bottom:2em;
+	font-size:1em;
+	font-weight:bold;
+}
+
+.announcement p{
+	font-size:1.1em;
+}
