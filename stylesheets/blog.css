@@ -20,4 +20,7 @@ pre{
 	display:inline-block;
 	padding:1em 1em 0em 1em;
 	background-color:#B0B0B0;
+	tab-size:4;
+	-moz-tab-size: 4; /* Code for Firefox */
+	-o-tab-size: 4; /* Code for Opera 10.6-12.1 */
 }
