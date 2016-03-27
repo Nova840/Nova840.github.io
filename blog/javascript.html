@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Blog-Template</title>
+		<link type="text/css" rel="stylesheet" href="../stylesheets/default.css">
+		<link type="text/css" rel="stylesheet" href="../stylesheets/blog.css">
+	</head>
+	<body>
+		<div id="headerSpace"></div>
+		<header>
+			<!--All objects in here will be in reverse order except home-->
+			<a href="../index.html"><section id="home" class="headerNav"><p class="headerText">Home</p></section></a>
+
+
+			<a href="index.html"><section class="headerNav"><p class="headerText">Blog</p></section></a>		
+
+			<a href="../about.html"><section class="headerNav"><p class="headerText">About</p></section></a>
+
+			<section class="headerNav"><p class="headerText">Projects</p></section>
+		</header>
+
+		<article class="postBackground">
+			<h1 class="postTitle">Constructors: Javascript vs Ruby</h1>
+		    <h4 class="postDate">3/26/16</h4>
+			<p>
+				A constructor is a function that creates a new object when you call it with the <i>new</i> keyword. In JavaScript, it looks like this:
+			</p>
+			<pre>
+function thing(property1, property2){
+	this.property1 = property1;
+	this.property2 = property2;
+}
+
+// Create a new object using the constructor.
+var newThing = new thing("Value 1", "Value 2");
+			</pre>
+			<p>
+				In Ruby, it's a little different. A constructor will set the initial values of a class.
+			</p>
+			<pre>
+class ExampleClass
+
+	def initialize(property1, property2)
+		@property1 = property1
+		@property2 = property1
+	end
+
+end
+
+# Create a new instance of ExampleClass using the constructor.
+instance = ExampleClass.new("Value 1", "Value 2")
+			</pre>
+		</article>
+
+	</body>
+</html>
