@@ -6,20 +6,22 @@
 		<link type="text/css" rel="stylesheet" href="../stylesheets/blog.css">
 	</head>
 	<body>
-		<div id="headerSpace"></div>
-		<header>
+		<header class="column">
 			<!--All objects in here will be in reverse order except home-->
-			<a href="../index.html"><section id="home" class="headerNav"><p class="headerText">Home</p></section></a>
+			<a href="../index.html"><nav id="home" class="headerNav"><p class="headerText">Home</p></nav></a>
 
+			<a href="index.html"><nav class="headerNav"><p class="headerText">Blog</p></nav></a>
 
-			<a href="index.html"><section class="headerNav"><p class="headerText">Blog</p></section></a>		
+			<div class="headerBar"></div>
 
-			<a href="../about.html"><section class="headerNav"><p class="headerText">About</p></section></a>
+			<a href="../about.html"><nav class="headerNav"><p class="headerText">About</p></nav></a>
 
-			<section class="headerNav"><p class="headerText">Projects</p></section>
+			<div class="headerBar"></div>
+
+			<a href="../projects.html"><nav class="headerNav"><p class="headerText">Projects</p></nav></a>
 		</header>
 
-		<article class="postBackground">
+		<article class="column">
 			<h1 class="postTitle">Arrays and Hashes in Ruby.</h1>
 		    <h4 class="postDate">3/3/16</h4>
 			<p>An array in Ruby is a list of variables. It is useful when you have a large or unknown amount of objects to store. An array is defined like this:</p>

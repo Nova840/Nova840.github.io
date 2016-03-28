@@ -1,38 +1,28 @@
+html{
+	height:100%;
+}
+
 body{
-	background-color:#555555;
+	background:linear-gradient(to top right, rgb(20,20,20), rgb(70,70,70));
+	background-attachment: fixed;/*This has to be below the gradient*/
+	color:rgb(200,200,200);
+	font-family: Verdana;
 }
 
-a:link{
-	color:#CCCCCC;
-}
-
-a:visited{
-	color:#CCCCCC;
+a{
+	color:rgb(200,200,200);
+	-webkit-transition:text-shadow .3s;
 }
 
 a:hover{
-	color:#DDDDDD;
-}
-
-a:active{
-	color:#FFFFFF;
+	text-shadow: 0 0 1em rgb(200,200,200);
 }
 
 header{
-	background-color:#000000;
-	position: fixed;
-	height:2.5em;
-	width:100%;
-	left:0;
-	top:0;
-}
-
-#headerSpace{
-	height:2.5em;/*Same as header*/
+	height:4em;
 }
 
 .headerNav{
-	background-color: #303030;
 	height:100%;
 	right:100%;
 	margin-right:.5em;
@@ -41,12 +31,12 @@ header{
 	float:right;
 }
 
-a .headerNav:hover{
-	background-color: #404040;
-}
-
-a .headerNav:active{
-	background-color: #454545;
+.headerBar{
+	display:inline-block;
+	border-left:1px solid rgb(100,100,100);
+	margin-right: .5em;
+	height:100%;
+	float:right;
 }
 
 #home{
@@ -57,8 +47,7 @@ a .headerNav:active{
 .headerText{
 	margin: 0;
 	font-size: 1.25em;
-	margin-top:.4em;
-	color:#CCCCCC;
+	margin-top:1em;
 }
 
 #bodyText{
@@ -75,10 +64,11 @@ a .headerNav:active{
 	margin:1em;
 }
 
-#about{
-	display:block;
+.column{
 	margin:auto;
-	background-color:#B0B0B0;
+	margin-bottom: 2em;
+	background-color: rgba(20,20,20,.75);
 	width:50em;
 	padding:1em;
+	border-radius: .25em;
 }

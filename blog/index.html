@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Blog</title>
-	<link type="text/css" rel="stylesheet" href="../stylesheets/default.css">
-	<link type="text/css" rel="stylesheet" href="../stylesheets/blog.css">
-</head>
-<body>
-	<div id="headerSpace"></div>
-	<header>
-		<!--All objects in here will be in reverse order except home-->
-		<a href="../index.html"><section id="home" class="headerNav"><p class="headerText">Home</p></section></a>
+	<head>
+		<title>Blog</title>
+		<link type="text/css" rel="stylesheet" href="../stylesheets/default.css">
+		<link type="text/css" rel="stylesheet" href="../stylesheets/blog.css">
+	</head>
+	<body>
+		<header class="column">
+			<!--All objects in here will be in reverse order except home-->
+			<a href="../index.html"><nav id="home" class="headerNav"><p class="headerText">Home</p></nav></a>
 
-		<a href="index.html"><section class="headerNav"><p class="headerText">Blog</p></section></a>		
-			<a href="../about.html"><section class="headerNav"><p class="headerText">About</p></section></a>
-			<section class="headerNav"><p class="headerText">Projects</p></section>
-	</header>
+			<a href="index.html"><nav class="headerNav"><p class="headerText">Blog</p></nav></a>
 
-	<ul>
-		<li><a href="git.html">Version Control, Git, and GitHub.</a></li>
-		<li><a href="css-concepts.html">Margin, Border, and Padding in CSS.</a></li>
-		<li><a href="arrays-hashes.html">Arrays and Hashes in Ruby.</a></li>
-		<li><a href="enumerable-methods.html">Using the map method in Ruby.</a></li>
-		<li><a href="ruby-classes.html">Classes in Ruby.</a></li>
-		<li><a href="constructors.html">Constructors: Javascript vs Ruby</a></li>
-	</ul>
+			<div class="headerBar"></div>
 
-</body>
+			<a href="../about.html"><nav class="headerNav"><p class="headerText">About</p></nav></a>
+
+			<div class="headerBar"></div>
+
+			<a href="../projects.html"><nav class="headerNav"><p class="headerText">Projects</p></nav></a>
+		</header>
+		<ul>
+			<li><a href="git.html">Version Control, Git, and GitHub.</a></li>
+			<li><a href="css-concepts.html">Margin, Border, and Padding in CSS.</a></li>
+			<li><a href="arrays-hashes.html">Arrays and Hashes in Ruby.</a></li>
+			<li><a href="enumerable-methods.html">Using the map method in Ruby.</a></li>
+			<li><a href="ruby-classes.html">Classes in Ruby.</a></li>
+			<li><a href="constructors.html">Constructors: Javascript vs Ruby</a></li>
+		</ul>
+
+	</body>
 </html>
