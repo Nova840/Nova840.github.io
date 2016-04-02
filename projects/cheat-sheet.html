@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JavaScript Loops</title>
+		<link type="text/css" rel="stylesheet" href="../stylesheets/default.css">
+		<link type="text/css" rel="stylesheet" href="../stylesheets/blog.css">
+	</head>
+	<body>
+		<header class="column">
+			<!--All objects in here will be in reverse order except home-->
+			<a href="../index.html"><nav id="home" class="headerNav"><p class="headerText">Home</p></nav></a>
+
+			<a href="../blog/index.html"><nav class="headerNav"><p class="headerText">Blog</p></nav></a>
+
+			<div class="headerBar"></div>
+
+			<a href="../about.html"><nav class="headerNav"><p class="headerText">About</p></nav></a>
+
+			<div class="headerBar"></div>
+
+			<a href="index.html"><nav class="headerNav"><p class="headerText">Projects</p></nav></a>
+		</header>
+
+		<article class="column">
+			<h1 class="postTitle">JavaScript loops cheat sheet.</h1>
+			<!--<h4 class="postDate">4/1/16</h4>-->
+
+			<h3>While loops</h3>
+
+			<p>
+				A while loop executes a block of code while a condition is true.
+			</p>
+			<pre>
+while(condition){
+	//code block
+}
+			</pre>
+			<p>
+				A do-while loop is almost the same as a while loop, but the condition check happens after the code block executes. This means the block always executes at least once. It's functionally the same as retyping the code block above a standard while loop.
+			</p>
+			<pre>
+do{
+	//code block
+}
+while(condition);
+			</pre>
+
+			<h3>For loops</h3>
+
+			<p>
+				For loops in JavaScript can be written in multiple ways. The first is the standard for loop:
+			</p>
+			<pre>
+for(var i = 0; i < array.length; i++){
+	console.log(array[i]);
+}
+			</pre>
+			<p>
+				The next way is to use a for-in loop. This works just like the standard for loop, but it's less to type. Note that "i" is still the index, not the element itself.
+			</p>
+			<pre>
+for(var i in array){
+	connsole.log(array[i]);
+}
+			</pre>
+			<p>
+				There is a way to get the element itself as opposed to the index. For that you would need a for-each loop.
+			</p>
+			<pre>
+array.forEach(function(element){
+	console.log(element);
+});
+			</pre>
+		</article>
+	</body>
+</html>
