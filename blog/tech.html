@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Blog-Dynamic vs. Static</title>
+		<link type="text/css" rel="stylesheet" href="../stylesheets/default.css">
+		<link type="text/css" rel="stylesheet" href="../stylesheets/blog.css">
+	</head>
+	<body>
+		
+		<header class="column">
+			<!--All objects in here will be in reverse order except home-->
+			<a href="../index.html"><nav id="home" class="headerNav"><p class="headerText">Home</p></nav></a>
+
+			<a href="index.html"><nav class="headerNav"><p class="headerText">Blog</p></nav></a>
+
+			<div class="headerBar"></div>
+
+			<a href="../about.html"><nav class="headerNav"><p class="headerText">About</p></nav></a>
+
+			<div class="headerBar"></div>
+
+			<a href="../projects/index.html"><nav class="headerNav"><p class="headerText">Projects</p></nav></a>
+		</header>
+
+		<article class="column">
+			<h1 class="postTitle">Dynamic vs. Static-typed Languages.</h1>
+		    <h4 class="postDate">4/2/16</h4>
+			<p>
+				Dynamic-typed languages are languages where you don't need to specify a variable's type. Examples of this are languages like JavaScript, Ruby, and Python. These languages usually don't have a compiler and won't generate errors before runtime. The advantages to a dynamic-typed language are that it often takes less time to initially write a program because it's less information to worry about. It also allows for more flexibility when writing code. For example, you could write a method that can take any type of data in its parameters much easier because a variable can be any type of object.
+			</p>
+			<p>
+				Static-typed languages are the opposite if dynamic-typed languages; they require every object to have a fixed type. Some static-typed languages include Java, C, and C++. In these languages, you have to specify a type whenever you declare a variable. You can't assign a string value to a variable that was previously an integer. The advantages of these types of languages are that it' easier to identify small bugs. The compiler will tell you about when and where you miss a semicolon or pass in the wrong data type. Another advantage is being able to point to any value in the code and know what data type it is. This makes it easier to loop through nested arrays because you can often tell where you are by looking at the variable's type.
+			</p>
+		</article>
+
+	</body>
+</html>
