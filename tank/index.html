@@ -11,13 +11,22 @@
     <script src="TemplateData/UnityProgress.js"></script>
   </head>
   <body class="template">
-    <div class="template-wrap clear">
-      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
-      <br>
-      <div class="fullscreen"><img src="TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
-    </div>
-	<div class="gameSpace"></div>
-
+  
+	<br>
+	<br>
+  
+  	<div class="column">
+		<h1 class="announcementTitle">Version 1.0: Finished! (Sort of)</h2>
+		<p class="announcementDate">9/25/16</p>
+		<p>Well, it's done. You're probably wondering why the game isn't there anymore. There was an issue with the new lighting that made the game basically unplayable in a web browser. I'll to put a link here to it's new location sometime during the week. Also, it's not really "finished", I plan on adding a lot more content to it. I guess you could say it's now in beta rather than alpha.</p>
+		<p>Features:</p>
+		<ul>
+			<li>New lighting with shadows.</li>
+			<li>Two new stages.</li>
+			<li>Bug fixes.</li>
+		</ul>
+	</div>
+  
 	<div class="column">
 		<h1 class="announcementTitle">Version 0.22: 99% There</h2>
 		<p class="announcementDate">9/19/16</p>
@@ -330,16 +339,6 @@
 	</div>
 
     <p class="footer">&laquo; created with <a href="http://unity3d.com/" title="Go to unity3d.com">Unity</a> &raquo;</p>
-    <script type='text/javascript'>
-  var Module = {
-    TOTAL_MEMORY: 268435456,
-    errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
-    compatibilitycheck: null,
-    dataUrl: "Release/tank.data",
-    codeUrl: "Release/tank.js",
-    memUrl: "Release/tank.mem",
-  };
-</script>
 <script src="Release/UnityLoader.js"></script>
 
   </body>
