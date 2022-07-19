@@ -1,0 +1,16 @@
+RewriteEngine on
+
+# Always Display www
+RewriteCond %{HTTP_HOST} !^www.nova840.com$ [NC]
+RewriteRule ^(.*)$ https://www.nova840.com/$1 [L,R=301]
+
+# Remove .html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+# Force HTTPS
+RewriteCond %{HTTPS} !on
+RewriteRule ^(.*)$ https://www.nova840.com/$1 [L,R=301]
+
+# Custom 404 Page
+ErrorDocument 404 /404.html
