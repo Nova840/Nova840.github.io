@@ -70,7 +70,7 @@ body {
 }
 
 .dashed_hr {
-	border: 0.5px dashed white;
+	border: 1px dashed white;
 	margin-top: 3em;
 }
 
@@ -78,10 +78,15 @@ body {
 
 .projects_table {
 	margin: auto;
+	border-spacing: 20px;
+	
 }
 
 .projects_table td {
 	padding: 1em;
+	border: 1px solid rgb(200, 200, 200);
+	border-radius: 10px;
+	
 }
 
 .projects_table td img {
@@ -90,6 +95,7 @@ body {
 
 .projects_table td h2 {
 	text-align: center;
+	margin-top: 0;
 }
 
 .projects_table h2 a:link,
