@@ -2,6 +2,10 @@
 	font-family: tahoma;
 }
 
+body {
+	background-color: rgb(29, 29, 29);
+}
+
 
 
 .header {
@@ -61,12 +65,12 @@
 
 
 .solid_hr {
-	border: 1px solid black;
+	border: 1px solid white;
 	margin-top: 3em;
 }
 
 .dashed_hr {
-	border: 0.5px dashed black;
+	border: 0.5px dashed white;
 	margin-top: 3em;
 }
 
@@ -90,11 +94,11 @@
 
 .projects_table h2 a:link,
 .projects_table h2 a:visited {
-	color: #325be2;
+	color: #7595ff;
 }
 
 .projects_table h2 a:hover {
-	color: #223b94;
+	color: #3051c5;
 }
 
 .projects_table h2 a:active {
@@ -107,6 +111,11 @@
 	width: 50em;
 	margin: auto;
 	text-align: center;
+}
+
+.content h1,
+.content p {
+	color: rgb(255, 255, 255);
 }
 
 
@@ -125,11 +134,11 @@
 
 .links_table a:link,
 .links_table a:visited {
-	color: #325be2;
+	color: #7595ff;
 }
 
 .links_table a:hover {
-	color: #223b94;
+	color: #3051c5;
 }
 
 .links_table a:active {
