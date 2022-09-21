@@ -1,0 +1,16 @@
+RewriteEngine on
+
+# Always Display portfolio
+RewriteCond %{HTTP_HOST} !^portfolio.nova840.com$ [NC]
+RewriteRule ^(.*)$ https://portfolio.nova840.com/$1 [L,R=301]
+
+# Remove .html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+# Force HTTPS
+RewriteCond %{HTTPS} !on
+RewriteRule ^(.*)$ https://portfolio.nova840.com/$1 [L,R=301]
+
+# Custom 404 Page
+ErrorDocument 404 /404.html
