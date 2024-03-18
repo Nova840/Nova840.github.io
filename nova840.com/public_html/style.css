@@ -125,16 +125,12 @@ body {
 
 
 
-.left_link {
-	padding-right: 5em;
-}
-
-.right_link {
-	padding-left: 5em;
-}
-
 .links_table {
 	margin: auto;
+}
+
+.links_table td {
+	width: 15em;
 }
 
 .links_table a:link,
