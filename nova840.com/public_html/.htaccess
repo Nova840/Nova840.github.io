@@ -6,7 +6,7 @@ RewriteRule ^(.*)$ https://www.nova840.com/$1 [L,R=302]
 
 # Remove .html
 RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
-RewriteRule ^ /%1 [NC,L,R]
+RewriteRule ^ /%1 [NC,L,R=302]
 
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^ %{REQUEST_URI}.html [NC,L]
